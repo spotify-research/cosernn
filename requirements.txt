@@ -1,0 +1,2 @@
+numpy>=1
+tensorflow-gpu>=1.14,<2
