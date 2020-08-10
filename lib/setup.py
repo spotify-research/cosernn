@@ -9,6 +9,6 @@ setup(
     ],
     install_requires=[
         "numpy",
-        "tensorflow-gpu",
+        "tensorflow",
     ],
 )

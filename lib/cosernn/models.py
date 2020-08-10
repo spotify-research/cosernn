@@ -1,6 +1,7 @@
 import tensorflow as tf
 
-from helpers import day_count, hour_count, minute_count, device_count, top_context_count
+from cosernn.helpers import (
+    day_count, hour_count, minute_count, device_count, top_context_count)
 
 
 class CoSeRNN():
@@ -487,8 +488,69 @@ class CoSeRNN():
         summary_op_val = tf.summary.merge([sum3, sum4, sum7, sum8])
         summary_op_test = tf.summary.merge([sum5, sum6, sum9, sum10])
 
-        return debugval, loss, loss_multi, combined_pred_total, multi_pred,        org_avgcos, org_avgcos_multi, loss, avgcos, loss, summary_op, summary_op_val, summary_op_test, [
-            pVar_val_loss, pVar_val_avgcos, pVar_val_mrr, pVar_val_mr], [update_pVar_val_loss, update_pVar_val_avgcos, update_pVar_val_mrr, update_pVar_val_mr], \
-            [pVar_test_loss, pVar_test_avgcos, pVar_test_mrr, pVar_test_mr], [update_pVar_test_loss, update_pVar_test_avgcos, update_pVar_test_mrr, update_pVar_test_mr], avgcos, \
-            session_item_scores, targets, [key_emb_update, session_emb_update, error_emb_update],[key_emb, key_emb_ph, key_emb_init], [session_emb, session_emb_ph, session_emb_init], \
-               [error_emb, error_emb_ph, error_emb_init], combined_single_0, combined_single_1, error_neighbourhood, combined_single
+        return (
+            debugval,
+            loss,
+            loss_multi,
+            combined_pred_total,
+            multi_pred,
+            org_avgcos,
+            org_avgcos_multi,
+            loss,
+            avgcos,
+            loss,
+            summary_op,
+            summary_op_val,
+            summary_op_test,
+            [
+                pVar_val_loss,
+                pVar_val_avgcos,
+                pVar_val_mrr,
+                pVar_val_mr
+            ],
+            [
+                update_pVar_val_loss,
+                update_pVar_val_avgcos,
+                update_pVar_val_mrr,
+                update_pVar_val_mr
+            ],
+            [
+                pVar_test_loss,
+                pVar_test_avgcos,
+                pVar_test_mrr,
+                pVar_test_mr
+            ],
+            [
+                update_pVar_test_loss,
+                update_pVar_test_avgcos,
+                update_pVar_test_mrr,
+                update_pVar_test_mr
+            ],
+            avgcos,
+            session_item_scores,
+            targets,
+            [
+                key_emb_update,
+                session_emb_update,
+                error_emb_update
+            ],
+            [
+                key_emb,
+                key_emb_ph,
+                key_emb_init
+            ],
+            [
+                session_emb,
+                session_emb_ph,
+                session_emb_init
+            ],
+            [
+                error_emb,
+                error_emb_ph,
+                error_emb_init
+            ],
+            combined_single_0,
+            combined_single_1,
+            error_neighbourhood,
+            combined_single,
+        )
