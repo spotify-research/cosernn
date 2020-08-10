@@ -13,3 +13,13 @@ To get started in using our code, simply follow this steps:
 - Move to the repository with: `cd cosernn`
 - install the dependencies: `pip install -r requirements`
 - install the package: `pip install -e lib/`
+
+Generate data using
+
+    python scripts/generate_data.py
+
+Train the CoSeRNN model using
+
+    python scripts/train.py path/to/records
+
+**Note**: to run our code, you need a CUDA-enabled GPU.
