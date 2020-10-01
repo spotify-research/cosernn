@@ -1,0 +1,7 @@
+__version__ = "0.1.0"
+__description__ = "CoSeRNN reference implementation"
+__uri__ = "https://github.com/spotify-research/cosernn"
+__author__ = "Casper Hansen"
+__author_email__ = "casper.hanzen@gmail.com"
+__maintainer__ = "Lucas Maystre"
+__maintainer_email__ = "lucasm@spotify.com"
