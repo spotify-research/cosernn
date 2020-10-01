@@ -37,12 +37,19 @@ Train the CoSeRNN model using
 Create a [new issue](https://github.com/spotify-research/cosernn/issues/new)
 
 
+## Contributing
+
+We feel that a welcoming community is important and we ask that you follow Spotify's
+[Open Source Code of Conduct](https://github.com/spotify/code-of-conduct/blob/master/code-of-conduct.md)
+in all interactions with the community.
+
+
 ## Authors
 
 - [Casper Hansen](mailto:casper.hanzen@gmail.com)
 - [Lucas Maystre](mailto:lucasm@spotify.com)
 
-A full list of [contributors](https://$REPOURL/graphs/contributors?type=a) can
+A full list of [contributors](https://github.com/spotify-research/cosernn/graphs/contributors?type=a) can
 be found on GitHub.
 
 Follow [@SpotifyResearch](https://twitter.com/SpotifyResearch) on Twitter for
