@@ -20,7 +20,7 @@ To get started, simply follow these steps:
 - Clone the repo locally with: `git clone
   https://github.com/spotify-research/cosernn.git`
 - Move to the repository with: `cd cosernn`
-- install the dependencies: `pip install -r requirements`
+- install the dependencies: `pip install -r requirements.txt`
 - install the package: `pip install -e lib/`
 
 Generate data using

@@ -81,6 +81,6 @@ setup(
     zip_safe=False,
     install_requires=[
         "numpy",
-        "tensorflow",
+        "tensorflow-gpu",
     ],
 )
